@@ -3,8 +3,8 @@ import React,{Component} from 'react';
 class LogoNameHeader extends Component{
     render(){
       return (
-        <div>
-            hi
+        <div className='nameHeader'>
+            <p className='text'>ArtShop</p>
         </div>
       );
     }

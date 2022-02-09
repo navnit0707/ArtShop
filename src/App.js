@@ -1,10 +1,10 @@
 import './App.css';
 import React, { Component } from 'react';
-import LogoNameHeader from './component/mainheader/logoName.js';
+import Mainheader from './component/mainheader/mainheader';
 
 class App extends Component{
   render(){
-    return <LogoNameHeader />;
+    return <Mainheader />;
   }
 }
 export default App;
