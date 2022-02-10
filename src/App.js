@@ -1,10 +1,10 @@
 import './App.css';
 import React, { Component } from 'react';
-import Mainheader from './component/mainheader/mainheader/mainheader';
+import Schema from './component/schema/schema';
 
 class App extends Component{
   render(){
-    return <Mainheader />;
+    return <Schema />;
   }
 }
 export default App;

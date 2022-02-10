@@ -3,7 +3,7 @@ import './mainheader.css'
 import LogoNameHeader from '../logoname/logoName';
 import Search from '../search/search';
 import Logo from '../logo/logo';
-class Mainheader extends Component{
+class MainHeader extends Component{
     render(){
         return(
             <>
@@ -17,4 +17,4 @@ class Mainheader extends Component{
     }
 }
 
-export default Mainheader;
+export default MainHeader;
