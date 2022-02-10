@@ -1,13 +1,12 @@
-import React from "react";
-import pic2 from './../../../data/pic2.jpg';
+import React, { Component } from "react";
 
-class PostSample extends Comment{
+class PostSample extends Component{
     render(){
         return(
             <div className="layout">
                 <div className="body">
                     <div className="image">
-                        <img src={pic2} alt="pic"/>
+                    img
                     </div>
                 </div>
                 <div className="footer">

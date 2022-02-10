@@ -4,7 +4,11 @@ import Schema from './component/schema/schema';
 
 class App extends Component{
   render(){
-    return <Schema />;
+    return(
+    <>
+    <Schema />
+    </>
+    );
   }
 }
 export default App;
